@@ -30,10 +30,9 @@ $('.top-form').on('submit', function (e) {
         success: function (data) {
             console.log(data);
         }
-
     })
     });
-//AJAX form submission END
+//AJAX form submission  End
 
 
 
