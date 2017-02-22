@@ -57,10 +57,10 @@
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
 				</header>
 				<fieldset>
-					<form class="top-form" action="">
+					<form class="top-form" onsubmit=(this.onFormSubmit.bind(this))>
 						<input class="field-name" type="text" name="name" placeholder="Full Name">
-						<input class="field-email" type="text" name="email" placeholder="Email Address">
-						<input class="field-phone" type="text" name="phone" placeholder="Phone Number">
+						<input class="field-email" type="email" name="email" placeholder="Email Address">
+						<input class="field-phone" type="tel" name="phone" placeholder="Phone Number">
 						<button class="btn-request">Request a quote</button>
 					</form>
 				</fieldset>
